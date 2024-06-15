@@ -9,10 +9,10 @@ Este repositório contém todos os scripts SQL necessários para a criação, co
 ### O banco de dados é composto pelas seguintes tabelas principais:
 
 - **events:** Armazena informações sobre os eventos, como **nome**, **descrição**, **data**, **local** e o **número máximo de participantes** (attendees).
-- **organizers:** Armazena informações sobre os organizadores dos eventos, como nome, e-mail e telefone.
-- **attendees:** Armazena informações sobre os participantes dos eventos, como nome, e-mail e telefone.
-- **organizers_events:** Tabela de ligação que associa organizadores aos eventos que eles criaram.
-- **attendees_events:** Tabela de ligação que associa participantes aos eventos que eles estão inscritos.
+- **organizers:** Armazena informações sobre os organizadores dos eventos, como **nome**, **e-mail** e **telefone**.
+- **attendees:** Armazena informações sobre os participantes dos eventos, como **nome**, **e-mail** e **telefone**.
+- **organizers_events:** Tabela de ligação que associa **organizadores aos eventos que eles criaram**.
+- **attendees_events:** Tabela de ligação que associa **participantes aos eventos que eles estão inscritos**.
   
 # Scripts SQL
 **Como Utilizar?**
