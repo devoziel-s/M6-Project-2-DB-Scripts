@@ -5,7 +5,7 @@ SELECT * FROM organizers;
 SELECT * FROM organizers_events;
 
 -- Buscar organizadores baseado nos eventos criados por eles
-SELECT organizers.name, organizers.email, events.eventName AS hasCreated
+SELECT organizers.name, organizers.email, events.eventName AS hasCreated, eventDate, eventLocation
 FROM events
 JOIN organizers_events ON events.id = organizers_events.events_id
 JOIN organizers ON organizers.id = organizers_events.organizers_id;
